@@ -1,0 +1,66 @@
+=============
+=>Media Plyer
+=============
+
+->Landing
+    -Header
+    -Footer
+->Dashboard
+    -Header
+    -Footer
+    -Add video
+    -List video
+    -Category
+->History
+
+
+1.Landing Page(Intro)
+2.Add Youtube Videos
+3.List Added Videos
+4.Play Added Videos
+5.Delete Added Videos
+6.Add Category
+7.List Category
+8.List Category Videos
+9.Add Videos to Category
+10.Delete Categories
+11.List Watch History
+
+->Project Create
+->Clean Up
+->Basic CSS
+->react-bootstrap install
+    npm i react bootstrap bootstrap
+->set bootstrap theme
+    bootswatch.com[bootstrap.min.css]
+->Pages & Components
+->Routing of Pages and Components
+    react-router-dom
+
+
+=>Axios
+*******
+-package with method for XmlHttpRequests
+-handles data transformation itself
+-to install
+    npm i axios
+
+-axios request structure
+    ->basic get request
+        axios.get("url)
+    ->other requests
+        const req=axios.create({option})
+    
+    {option}=>
+        {
+            base_url:"localhost:3000",
+            url:"/allVideos",
+            method:"post",
+            headers:{"Content-Type":"application/json" / "text/plain" / "multipart/form-data"},
+            data:{caption:"caption",url:"videourl","image:"image-address-url""} 
+        }
+
+    ->using axios() method
+    axios({
+        
+    })
